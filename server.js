@@ -14,7 +14,7 @@ app.use(express.json());
 
 // MongoDB Connection
 // Replace this with your MongoDB Compass URI
-const mongoURI = "mongodb+srv://kalyanikaruthedath:@cluster0.xlso91q.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0";  // Local MongoDB URI
+const mongoURI = "mongodb+srv://kalyanikaruthedath:kalyani@cluster0.xlso91q.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0";  // Local MongoDB URI
 
 mongoose.connect(mongoURI, {
   useNewUrlParser: true,
